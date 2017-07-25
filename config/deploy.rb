@@ -1,7 +1,7 @@
 lock '3.7.2'
 
 set :application, 'project'
-set :repo_url, 'git@github.com:kirillweb/rails-api-template.git'
+set :repo_url, 'https://github.com/brianfwz/test_chef.git'
 
 set :use_sudo, false
 set :deploy_via, :copy

@@ -14,7 +14,7 @@ Bundler.require(*Rails.groups)
 
 module RailsApiTemplate
   class Application < Rails::Application
-    config.api_only = true
+    config.api_only = false
 
     config.action_mailer.default_url_options = { host: ENV['DOMAIN'] }
 

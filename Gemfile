@@ -6,6 +6,8 @@ gem 'puma', '~> 3.8'
 gem 'devise_token_auth', '~> 0.1.4'
 gem 'rack-cors', '~> 0.4.1', require: 'rack/cors'
 gem 'dotenv-rails', '~> 2.2'
+gem 'activeadmin'
+gem 'active_admin_sidebar'
 
 group :development, :test do
   gem 'byebug', platform: :mri
